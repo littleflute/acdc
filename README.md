@@ -1,6 +1,6 @@
- [v0.0.3](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.4](https://github.com/littleflute/acdc/edit/master/README.md)
  
- [Highway To Hell [REMST])(Highway To Hell [REMST])
+[Highway To Hell (REMST)](Highway To Hell [REMST])
 
 <audio controls id="player"> 
   <source src="https://littleflute.github.io/acdc/Highway%20To%20Hell%20%5BREMST%5D/01 Highway To Hell.mp3" type="audio/mpeg">
@@ -11,7 +11,7 @@ Your browser does not support the audio element.
 <script>
 var d = document.getElementById("xd"); 
 var html = d.innerHTML; 
-html += " ABBA<br>ABBA gold<br>CD:<br>";
+html += " acdc<br>Highway To Hell [REMST]<br>CD:<br>";
 for(var n=1; n<=19; n++)
 {	
  	html += fNewBtn(n);
@@ -22,7 +22,7 @@ d.innerHTML = html;
 var p = document.getElementById("player");
 function f(i)
 {
-    var s = "acdc/Highway%20To%20Hell%20%5BREMST%5D/";
+    var s = "https://littleflute.github.io/acdc/Highway%20To%20Hell%20%5BREMST%5D/";
     if(i==1)
     {
     	s += "01 Highway To Hell";

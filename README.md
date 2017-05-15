@@ -1,4 +1,6 @@
- [v0.0.2](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.3](https://github.com/littleflute/acdc/edit/master/README.md)
+ 
+ [Highway To Hell [REMST])(Highway To Hell [REMST])
 
 <audio controls id="player"> 
   <source src="https://littleflute.github.io/acdc/Highway%20To%20Hell%20%5BREMST%5D/01 Highway To Hell.mp3" type="audio/mpeg">
@@ -20,17 +22,28 @@ d.innerHTML = html;
 var p = document.getElementById("player");
 function f(i)
 {
-    var s = "https://littleflute.github.io/ABBA/ABBA gold/cd/";
-    if(i<10) 
+    var s = "acdc/Highway%20To%20Hell%20%5BREMST%5D/";
+    if(i==1)
     {
-    	s += "0";
-    } 
-    s += i;
-    s += "_曲目 ";
-    s += i;
+    	s += "01 Highway To Hell";
+    }
+    else if(i==2)
+    {
+    	s += "02 Girls Got Rhythm";
+    }
+    else
+    {
+    	if(i<10) 
+    	{
+    		s += "0";
+    	} 
+    	s += i;
+    	s += "_曲目 ";
+    	s += i;
+    }
     s += ".mp3";
     
-	p.src = s; 
+    p.src = s; 
     p.play();
 }
 function fNewBtn(i)

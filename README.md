@@ -1,4 +1,4 @@
- [v0.0.7](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.8](https://github.com/littleflute/acdc/edit/master/README.md)
  
 [Highway To Hell (REMST)](Highway To Hell [REMST])
 
@@ -46,6 +46,22 @@ function f(i)
     else if(i==6)
     {
     	s += "06 Shot Down In Flames";
+    }
+    else if(i==7)
+    {
+    	s += "07 Get It Hot";
+    }
+    else if(i==8)
+    {
+    	s += "08 If You Want Blood (You've Got It)";
+    }
+    else if(i==9)
+    {
+    	s += "09 Love Hungary Man";
+    }
+    else if(i==10)
+    {
+    	s += "10 Night Prowler";
     }
     else
     {

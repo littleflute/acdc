@@ -1,4 +1,4 @@
- [v0.0.5](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.6](https://github.com/littleflute/acdc/edit/master/README.md)
  
 [Highway To Hell (REMST)](Highway To Hell [REMST])
 
@@ -34,6 +34,10 @@ function f(i)
     else if(i==3)
     {
     	s += "03 Walk All Over You";
+    }
+    else if(i==4)
+    {
+    	s += "04 Touch Too Much";
     }
     else
     {

@@ -1,4 +1,4 @@
- [v0.0.6](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.7](https://github.com/littleflute/acdc/edit/master/README.md)
  
 [Highway To Hell (REMST)](Highway To Hell [REMST])
 
@@ -42,6 +42,10 @@ function f(i)
     else if(i==5)
     {
     	s += "05 Beating Around The Bush";
+    }
+    else if(i==6)
+    {
+    	s += "06 Shot Down In Flames";
     }
     else
     {

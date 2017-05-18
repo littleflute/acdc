@@ -1,4 +1,4 @@
- [v0.0.8](https://github.com/littleflute/acdc/edit/master/README.md)
+ [v0.0.9](https://github.com/littleflute/acdc/edit/master/README.md)
  
 [Highway To Hell (REMST)](Highway To Hell [REMST])
 
@@ -12,7 +12,7 @@ Your browser does not support the audio element.
 var d = document.getElementById("xd"); 
 var html = d.innerHTML; 
 html += " acdc<br>Highway To Hell [REMST]<br>CD:<br>";
-for(var n=1; n<=19; n++)
+for(var n=1; n<=10; n++)
 {	
  	html += fNewBtn(n);
 

@@ -1,0 +1,17 @@
+var f = [];				
+f[0]	= "v0.0.7";			
+f[1]	= "01 Shoot to Thrill.mp3";		
+f[2]	= "02 Rock 'N' Roll Damnation.mp3";		
+f[3]	= "03 Guns for Hire.mp3";		
+f[4]	= "04 Cold Hearted Man.mp3";		
+f[5]	= "05 Back in Black.mp3";		
+f[6]	= "06 Thunderstruck.mp3";		
+f[7]	= "07 If You Want Blood (You've Got It).mp3";		
+f[8]	= "08 Evil Walks.mp3";		
+f[9]	= "09 T.N.T.mp3";		
+f[10]	= "10 Hell Ain't a Bad Place to Be.mp3";		
+f[11]	= "11 Have a Drink on Me.mp3";		
+f[12]	= "12 The Razors Edge.mp3";		
+f[13]	= "13 Let There Be Rock.mp3";		
+f[14]	= "14 War Machine.mp3";		
+f[15]	= "15 Highway to Hell.mp3";		
